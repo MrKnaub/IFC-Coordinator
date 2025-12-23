@@ -70,4 +70,29 @@ export default defineConfig([
     },
   },
 ])
-```
+
+
+# IFC Coordinator
+
+Web-based IFC editor & exporter using web-ifc.
+
+## Requirements
+- Node.js >= 18
+
+## Setup
+```bash
+git clone https://github.com/MrKnaub/IFC-Coordinator.git
+cd IFC-Coordinator
+npm install
+npm run dev
+
+Notes
+
+Runs fully in the browser
+
+No backend required
+
+Uses web-ifc / web-ifc-viewer
+
+
+
